@@ -5,74 +5,83 @@
 		<meta charset="utf-8">
 		<title>이력서</title>
 <style>
-	.blue {background: blue;}
-	.pink {background: pink;}
+	.main {background: rgb(173, 173, 228); text-align: center;}
+	.nav {background: pink;}
+	a:link {color: purple; text-decoration: none; font-weight: bold;}
+	.section {background-color: aliceblue;}
 </style>
 	</head>
 
 	<body>
 		<header>
-			<div class="blue">
+			<div class="main">
 			<h1>이력서</h1>
-			<h2>[이름]</h2>
+			<h2>[이름] 우지영</h2>
 			</div>
 		</header>
 
 		<nav>
-			<ul>
-				<div class="pink">
-				<li><a href="#profile">프로필</a></li>
-				<li><a href="#education">학력</a></li>
-				<li><a href="#experience">경력</a></li>
-				<li><a href="#skills">기술</a></li>
-				</div>
-			</ul>
+			<div class="nav">
+				<a href="#profile">프로필</a>
+				<a href="#education">학력</a>
+				<a href="#experience">경력</a>
+				<a href="#skills">기술</a>
+			</div>
 		</nav>
 
 		<article>
 			<section id="profile">
 				<h2>프로필</h2>
 				<p>
-					[프로필 내용]
+					안녕하세요! 
+					저는 신입 웹 개발자로서 백엔드 개발 분야에서 높은 실력을 갖추고 있는 새로운 도전을 즐기는 개발자입니다. 
+					기술적 역량뿐만 아니라 팀 내에서의 의사소통과 협력 능력에도 강점을 가지고 있습니다.
+
+					프로젝트에서의 협력과 소통은 항상 저의 우선순위 중 하나였습니다. 이전의 다양한 팀 프로젝트를 통해 git을 활용한 효율적인 버전 관리와 팀원들 간의 원활한 의사소통 방법을 익혔습니다. 특히, 다양한 의견을 수렴하고 팀원들과 소통하는 데에 있어서 항상 적극적으로 참여했습니다.
+
+					신입으로서의 자세로 항상 새로운 것을 배우려는 의지를 가지고 있습니다. 
+
+					또한, 백엔드 개발 뿐만 아니라 프론트엔드와의 협업 경험이 있어, 전체적인 웹 개발 프로세스에 대한 이해를 갖추고 있습니다. 앞으로의 기회가 주어진다면, 새로운 도전에 적극적으로 참여하고 성장해 나가는 구성원이 되고자 합니다. 
 				</p>
 			</section>
 
 			<section id="education">
-                                <h2>학력</h2>
-				<ul>
-					<li>
-						<h3>[학교명] [학과] [학위] [졸업일]</h3>
-                               			 <p>
-                                        		[학력 내용]
-                               			 </p>
-					</li>
-				</ul>
-                        </section>
+				<div class="section">
+                    <h2>학력</h2>
+					<ul>
+						<li><h3>[학교명] 연세대학교   [학과] 화공생명공학</h3></li>
+						<li><h3>[학위] 대졸   [졸업일] 2020.02</h3></li>
+							<p>
+								[학력 내용]
+							</p>
+					</ul>
+				</div>
+            </section>				
 
 			<section id="experience">
-                                <h2>경력</h2>
+                <h2>경력</h2>
 				<ul>
-					<li>
-						<h3>[회사명] [직책] [근무기간] [주요 업무]</h3>
-                               			 <p>
-                                       			 [경력 내용]
-                               			 </p>
-					</li>
+					<li><h3>[회사명] 구디아카데미  [직책] 사원 
+					<li>[근무기간] 2021.06~2023.08 [주요 업무] 홍보모집</h3></li>
+                        <p>
+                            [경력 내용]
+                        </p>
 				</ul>
-                        </section>
+            </section>
 
 			<section id="skills">
-				<h2>기술</h2>
-				<ul>
-					<li>
-						<h3>[기술명] [숙련도]</h3>
-					</li>
-				</ul>
+				<div class="section">
+					<h2>기술</h2>
+					<ul>
+						<li><h3>[기술명]		[숙련도]</h3></li>
+						<p>HTML/CSS		중상</p>
+					</ul>
+				</div>
 			</section>
 		</article>
 
-		<footer>
-			<p>[사이트 주소] @ [년도] </p>
+		<footer class="nav">
+			<p>https://github.com/Afresh2/Afresh2.github.io @ 2024 </p>
 		</footer>
 	</body>
 </html>
