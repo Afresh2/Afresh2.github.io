@@ -10,4 +10,4 @@
 - [x] NAVER searchadvisor
 
 ### 0.5.0
-- [ ] NAVER searchadvisor - robots.txt
+- [ ] firebase & deploy dev stage
