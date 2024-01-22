@@ -10,4 +10,7 @@
 - [x] NAVER searchadvisor
 
 ### 0.5.0
-- [ ] firebase & deploy dev stage
+- [x] firebase & deploy dev stage
+
+### 0.7.0
+- [ ] resume html
