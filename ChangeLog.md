@@ -10,4 +10,7 @@
 - [x] NAVER searchadvisor
 
 ### 0.4.0
-- [ ] [SEO NAVER](https://github.com/Afresh2/Afresh2.github.io/issues/5)
+- [x] [SEO NAVER](https://github.com/Afresh2/Afresh2.github.io/issues/5)
+
+### 0.4.1
+- [ ] [SEO NAVER] robots.txt 추가
