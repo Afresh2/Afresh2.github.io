@@ -6,5 +6,5 @@
 ### 0.2.0
 - [x] search-console
 
-### 0.30.
+### 0.3.0
 - [ ] NAVER searchadvisor
