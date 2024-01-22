@@ -9,5 +9,4 @@
 ### 0.3.0
 - [x] NAVER searchadvisor
 
-### 0.
-- [ ] NAVER searchadvisor - 
+
