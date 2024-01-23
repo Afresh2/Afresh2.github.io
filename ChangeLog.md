@@ -9,4 +9,5 @@
 ### 0.3.0
 - [x] NAVER searchadvisor
 
-
+### 0.5.0
+- [ ] NAVER searchadvisor - robots.txt
