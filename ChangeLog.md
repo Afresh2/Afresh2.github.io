@@ -10,4 +10,7 @@
 - [x] NAVER searchadvisor
 
 ### 0.5.0
-- [ ] firebase & deploy dev stage
+- [x] firebase & deploy dev stage
+
+### 0.6.0 
+- [ ] study css
